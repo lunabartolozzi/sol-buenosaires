@@ -1,0 +1,911 @@
+.inicio-fondo{
+    background-image: url(assets/images/fondo.png);
+    width: auto;
+    height: 130px;
+   
+}
+.inicio-fondo div{
+    padding-top: 20px;
+}
+
+.inicio-fondo p{
+    position: absolute;
+    width: auto;
+    height: 42px;
+    left: 20%;
+    top: 20%;
+    color: white;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+
+}
+.img-vector {
+    position: absolute;
+    left: 17.26%;
+    right: 38.67%;
+    top: 8.7%;
+    bottom: 91.53%;
+}
+.about-program{
+    width: auto;
+    height: auto;
+    background-color: white ;
+    padding-left: 45px;
+    padding-top: 20px;
+}
+.about-program h3{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.btn-program{
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: none;
+    background: #190c3e;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-top: 40px;
+    padding-bottom: 5px;
+}
+
+.btn-program:hover{
+    background-color: #403eb4bd;
+}
+.btn-program a{
+    color: white;
+    font-size: 16px;
+  
+}
+
+
+.consulta-aqui{
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+
+.program-budget{
+    background: rgba(88, 154, 215, 0.05);
+    height: 500px;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.1);
+
+}
+.program-budget h3{
+    font-weight: bold;
+    padding: 50px;
+}
+.container-select{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.select-text{
+    margin-left: 25px;
+}
+.select-private{
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 250px;
+    border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.price{
+    font-weight: bold;
+    color: black;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.btn-price{
+    color:black;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin-left: 40px;
+    box-shadow: black 0.2px 0.2px;
+    
+}
+
+.btn-price a{
+    color: black;
+}
+
+.btn-price:hover{
+    background-color: #37489a;
+   
+}
+.btn-price a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.or-try{
+    margin-left: 30px;
+}
+
+
+
+.flex-modality{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex-modality-text{
+    width: 46%;
+}
+.flex-modality-img{
+    width: 50%;
+}
+.flex-modality-img img{
+    text-align: center;
+}
+
+
+
+.about-program-text{
+   
+    width: auto;
+    height: 95px;
+padding-top: 124px;
+margin-bottom: 80px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    
+    color: black;
+    
+  }
+
+/* ------------------ABOUT US----------------- */
+.aboutus-img{
+    width: 450px;
+    height: 500px;
+    padding-left: 20px;
+}
+.aboutus-filosofia{
+    background-color: #fafafa;
+}
+
+.aboutus-goal{
+    height: 800px;
+}
+
+.container-ourgoal{
+    margin-right: 400px;
+}
+.title-ourgoal{
+    position: absolute;
+    font-weight: 900;
+    left: 120px;
+    top: 973px;
+    font-weight: 900;
+}
+.diana{
+    width: 60px;
+    height: 63px;
+    margin-bottom: 32px;
+    margin-right: 330px;
+}
+/* ------------------REVIEWS----------------- */
+
+
+.comentarios{
+   
+    background-size: cover;
+    background-color: #ebebebd5;
+    background-blend-mode: multiply;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+.comentarios-slide{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.comments-card{
+    max-width: 350px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: start;
+}
+                
+.comments-cards-head{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    
+}
+.comments-cards-head img{
+    width: 5rem;
+    height: 5rem;
+}
+.comments-cards-head h2{
+    margin-top: 15px; 
+    margin-left: 10px;     
+    font-weight: bold;
+}
+.comentarios p {
+    font-size: 20px;
+    margin: 15px 0 30px 0;
+    padding-left: 15px;
+}
+
+
+@media (min-width:1000px){
+    .comentarios-container{
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+/* PROGRAMAS */
+
+
+.programas{
+    width: 100%;
+    padding: 50px 0;
+    }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* margin: 0 auto ; */
+    background: transparent;
+    width:fit-content;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+@media (min-width:1500px){
+    .swiper-button-prev, .swiper-button-next,.swiper-pagination{
+        display: none!important;
+    }
+}
+@media (min-width:1600px){
+    .swiper-wrapper{
+        max-width: 1500px!important;
+        margin: auto!important;
+        justify-content: space-evenly   ;
+    }
+        .swiper-slide{
+        width: fit-content!important;
+    }
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    width: 300px;
+    height: 500px;
+    margin: 20px 0 20px 0;    
+   
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.card h2{
+    font-weight: bold;
+    font-size: 25px;
+}
+.card a{
+    text-decoration: none;
+}
+.card-img{
+    width: 80%;
+    height: 100px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;    
+}
+
+.card-img-1{
+    /* background-position: top 400px right 1100px ;    */
+    background:url("assets/images/imagen_cultura.png");
+    background-size: cover;
+}
+.card-img-2{
+    /* background-position: bottom 200px left 0px; */
+    background:url("assets/images/imagen_kids.png");
+    background-size: cover;
+}
+.card-img-3{
+    /* background-position: bottom 50px left 100px; */
+    background:url("assets/images/imagen_privada.png");
+    background-size: cover;
+}
+.card-img-4{
+    /* background-position: bottom 50px left 100px; */
+    background:url("assets/images/imagen_university.png");
+    background-size: cover;
+}
+
+
+
+
+/* ------------------MEDIA QUERY----------------- */
+
+@media only screen and (max-width: 499px) {
+    .inicio-fondo p {
+        position: absolute;
+        width: 16rem;
+        height: 30px;
+        left: 10px;
+        top: auto;
+        color: white;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+    }
+    .img-vector {
+        position: absolute;
+        left: -12px;
+        right: 38.67%;
+        top: 67.71%;
+        bottom: 91.53%;
+        width: 2rem;
+    }
+    .container-select{
+        flex-direction: column;
+    }
+    .program-budget {
+        height: 641px;
+    }
+    .about-program {
+        height: auto;
+    }
+    .btn-program{
+        margin-top: 20px;
+    }
+  
+    .inicio-fondo div {
+        position: absolute;
+        left: 43px;
+        
+    }
+    .or-try {
+        margin-left: 143px;
+    }
+    .btn-price {
+        color: black;
+        background-color: white;
+        border: none;
+        border-radius: 10px;
+        width: 300px;
+        height: 50px;
+        margin-left: 25px;
+        box-shadow: black 0.2px 0.2px;
+    }
+    .flex-modality {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .aboutus-img{
+        width: 350px;
+        height: auto;
+        display: flex !important;
+        padding-right: 56px;
+    }
+    
+    .about-title-filosofia{
+        padding-top: 60px !important;
+        font-weight: 800;
+    }
+
+    .about-text-filosofia{
+        padding-top: 21px !important;
+        width: 361px !important;
+    }
+    .aboutus-filosofia{
+        background-color: #fafafa;
+    }
+    
+    .aboutus-text{
+        width: 400px !important;
+            }
+    .aboutus-goal{
+        height: auto;
+    }
+    
+    .container-ourgoal{
+        margin-right: auto;
+    }
+    .title-ourgoal{
+        position: absolute;
+    font-weight: 900;
+    left: 84px;
+    top: auto;
+    font-weight: 900;
+    padding-top: 13px;
+    }
+    .diana{
+        width: 60px;
+        height: 63px;
+        margin-bottom: 32px;
+        margin-right: 10px;
+        margin-left: 20px;
+       
+    }
+
+    .flex-modality-img img{
+        width: 20rem;
+        height: auto;
+        display: none;
+        margin-top: 29px !important;
+    }
+    .about-program-text {
+        width: 14rem;
+        height: 95px;
+        padding-top: 124px;
+        margin-bottom: 129px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+        color: black;
+    }
+    .texto-h3 {
+        font-size: 1.5rem !important;
+    }
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 500px) {
+    .inicio-fondo p {
+        position: absolute;
+        width: 20rem;
+        height: 30px;
+        left: 28px;
+        top: auto;
+        color: white;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+    }
+    .img-vector {
+        position: absolute;
+        left: 16.26%;
+        right: 38.67%;
+        top: 11.71%;
+        bottom: 91.53%;
+    }
+    .container-select{
+        flex-direction: column;
+    }
+    .program-budget{
+        height: 600px;
+    }
+    .about-program{
+        height: auto;
+    }
+    .btn-program{
+        margin-top: 20px;
+    }
+    .inicio-fondo div {
+        position: absolute;
+        left: 29px;
+        top: 100px;
+    }
+    .flex-modality {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .aboutus-img{
+        width: 514px;
+        height: 500px;
+        padding-left: 91px;
+        margin-top: 20px !important;
+    }
+    
+    
+
+    .aboutus-filosofia{
+        background-color: #fafafa;
+    }
+    
+    .aboutus-goal{
+        height: auto;
+    }
+    
+    .aboutus-text{
+width: 600px !important;
+    }
+    .container-ourgoal{
+        margin-right: 36px;
+    }
+    .title-ourgoal{
+        position: absolute;
+        font-weight: 900;
+        left: 120px;
+        top: auto;
+        font-weight: 900;
+        padding-top: 11px;
+    }
+    .diana{
+        width: 60px;
+        height: 63px;
+        margin-bottom: 32px;
+        margin-right: 23px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .inicio-fondo p {
+        position: absolute;
+        width: 20rem;
+        height: 30px;
+        left: 28px;
+        top: auto;
+        color: white;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+    }
+    .img-vector {
+        position: absolute;
+        left: 16.26%;
+        right: 38.67%;
+        top: 11.71%;
+        bottom: 91.53%;
+    }
+    .container-select{
+        flex-direction: column;
+    }
+    .program-budget{
+        height: 600px;
+    }
+    .about-program{
+        height: auto;
+    }
+    .btn-program{
+        margin-top: 20px;
+    }
+    .inicio-fondo div {
+        position: absolute;
+        left: 43px;
+       
+    }
+    .container-select{
+        flex-direction: column;
+    }
+    .flex-modality {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+    .aboutus-img{
+        width: 328px;
+    height: auto;
+    padding-left: 20px;
+}
+    
+    .aboutus-filosofia{
+        background-color: #fafafa;
+    }
+    
+    .aboutus-goal{
+        height: 800px;
+    }
+    
+    .container-ourgoal{
+        margin-right: 400px;
+    }
+    .title-ourgoal{
+        position: absolute;
+        font-weight: 900;
+        left: 120px;
+        top: 973px;
+        font-weight: 900;
+    }
+    .diana{
+        width: 60px;
+        height: 63px;
+        margin-bottom: 32px;
+        margin-right: 330px;
+    }
+    .flex-modality-img img {
+        text-align: center;
+    width: 22rem;
+          }
+          .title-ourgoal {
+            position: absolute;
+            font-weight: 900;
+            left: 120px;
+            top: 853px;
+            font-weight: 900;
+        }
+
+        .diana {
+            width: 60px;
+            height: 63px;
+            margin-bottom: 16px;
+            margin-right: 146px;
+        }
+        .container-ourgoal {
+            margin-right: 168px;
+        }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .inicio-fondo p {
+        position: absolute;
+        width: 20rem;
+        height: 30px;
+        left: 28px;
+        top: auto;
+        color: white;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+    }
+    .img-vector {
+        position: absolute;
+        left: 17.26%;
+        right: 38.67%;
+        top: 12.61%;
+        bottom: 91.53%;
+    }
+    .inicio-fondo div {
+        position: absolute;
+        left: 105px;
+        top: 14%;
+    }
+    .container-select{
+        flex-direction: row;
+    }
+    .flex-modality {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+    .aboutus-img{
+        width: 450px;
+        height: 500px;
+        padding-left: 20px;
+    }
+    .aboutus-filosofia{
+        background-color: #fafafa;
+    }
+    
+    .aboutus-goal{
+        height: 800px;
+    }
+    
+    .container-ourgoal{
+        margin-right: 400px;
+    }
+    .title-ourgoal{
+        position: absolute;
+        font-weight: 900;
+        left: 120px;
+        top: 973px;
+        font-weight: 900;
+    }
+    .diana{
+        width: 60px;
+        height: 63px;
+        margin-bottom: 32px;
+        margin-right: 330px;
+    }
+    .flex-modality-img img {
+        text-align: center;
+        padding-left: 103px;
+       
+          }
+          
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .inicio-fondo p {
+            position: absolute;
+            width: 20rem;
+            height: 42px;
+            left: 20px;
+            top: -51px;
+            color: white;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 42px;
+            display: flex;
+            align-items: center;
+            padding-top: 66px;
+    }
+    .img-vector {
+            position: absolute;
+            left: 0px;
+            right: 52.67%;
+            top: -18px;
+            bottom: 91.53%;
+    }
+    .inicio-fondo div {
+        position: absolute;
+        left: 105px;
+        top: 14%;
+    }
+    .flex-modality {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+    .aboutus-img{
+        width: 450px;
+        height: 500px;
+        padding-left: 20px;
+    }
+    .aboutus-filosofia{
+        background-color: #fafafa;
+    }
+    
+    .aboutus-goal{
+        height: 800px;
+    }
+    
+    .container-ourgoal{
+        margin-right: 400px;
+    }
+    .title-ourgoal{
+        position: absolute;
+        font-weight: 900;
+        left: 120px;
+        top: 973px;
+        font-weight: 900;
+    }
+    .diana{
+        width: 60px;
+        height: 63px;
+        margin-bottom: 32px;
+        margin-right: 330px;
+    }
+    .flex-modality-img img {
+        text-align: center;
+        padding-left: 103px;
+          }
+} 
+
+/* Extra extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1500px) {
+    .inicio-fondo p {
+    position: absolute;
+    width: 20rem;
+    height: 42px;
+    left: 8%;
+    top: -55px;
+    color: white;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    padding-top: 66px;
+}
+
+
+    
+    .img-vector {
+        position: absolute;
+        left: -23px;
+        right: 205px;
+        top: -20px;
+        bottom: 91.53%;
+    
+    }
+    .inicio-fondo div {
+        position: absolute;
+        left: 105px;
+        top: 14%;
+    }
+    .flex-modality {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+    .aboutus-img{
+        width: 450px;
+        height: 500px;
+        padding-left: 20px;
+    }
+    .aboutus-filosofia{
+        background-color: #fafafa;
+    }
+    
+    .aboutus-goal{
+        height: 800px;
+    }
+    
+    .container-ourgoal{
+        margin-right: 400px;
+    }
+    .title-ourgoal{
+        position: absolute;
+        font-weight: 900;
+        left: 120px;
+        top: 973px;
+        font-weight: 900;
+    }
+    .diana{
+        width: 60px;
+        height: 63px;
+        margin-bottom: 32px;
+        margin-right: 330px;
+    }
+    .flex-modality-img img {
+        text-align: center;
+        padding-left: 103px;
+          }
+} 
